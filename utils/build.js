@@ -1,7 +1,7 @@
 const fs = require('fs')
 const settings = require('../package.json');
 const version = settings.version;
-const package = `https://fly.escapehatch.dev/eh-maintenance-api_${version}.zip`;
+const package = `https://fly.escapehatch.dev/eh-fly-dynamic-image-resizer_${version}.zip`;
 
 const content = {
 	"eh-fly-dynamic-image-resizer/eh-fly-dynamic-image-resizer.php": {
