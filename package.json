@@ -1,0 +1,21 @@
+{
+  "name": "eh-fly-dynamic-image-resizer",
+  "version": "2.0.9",
+  "description": "EscapeHatch Fly Dynamic Image Resizer ",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node ./utils/build.js && npm-build-zip --source='./plugins' --destination=dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "npm-build-zip": "^1.0"
+  },
+  "devDependencies": {
+    "fs": "^0.0.1-security"
+  }
+}

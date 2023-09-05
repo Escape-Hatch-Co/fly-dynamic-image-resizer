@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Fly Dynamic Image Resizer
+Plugin Name: Escape Hatch Fly Dynamic Image Resizer
 Description: Dynamically create image sizes on the fly!
 Version: 2.0.8
 Author: Junaid Bhura

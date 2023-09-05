@@ -1,5 +1,10 @@
 # Fly Dynamic Image Resizer
 
+## FORK
+
+This is a forked version of Fly Dynamic Image Resizer so that we continue to provide support to legacy clients. Many thanks to Junaid Bhura for maintaining this plugin over the past several years. This fork is not intended to be used by anyone else.
+
+
 ## This plugin is no longer available :(
 
 This plugin was created with the aim of solving dynamic images on WordPress. Although this plugin offers a pretty decent solution, I can no longer recommend its use, since there are better solutions out there.

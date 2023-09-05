@@ -1,0 +1,24 @@
+# Jetbrains
+.idea/workspace.xml
+.idea/tasks.xml
+
+# VS Code
+!/.vscode
+!/.vscode/*.code-workspace
+
+# WordPress
+cms/
+
+# Vendor
+node_modules
+
+# Dist
+dist/*.zip
+/dist/info.json
+
+# Testing
+/wordpress-develop
+
+.data
+.phpunit.result.cache
+.DS_Store
