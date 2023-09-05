@@ -4,7 +4,7 @@ const version = settings.version;
 const package = `https://fly.escapehatch.dev/eh-maintenance-api_${version}.zip`;
 
 const content = {
-	"eh-fly-dynamic-image-resizer/eh-fly-dynamic-image-sizer.php": {
+	"eh-fly-dynamic-image-resizer/eh-fly-dynamic-image-resizer.php": {
 		version,
 		package
 	}
