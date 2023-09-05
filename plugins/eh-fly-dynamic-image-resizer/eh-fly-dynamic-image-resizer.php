@@ -1,10 +1,9 @@
 <?php
 /*
 Plugin Name: Escape Hatch Fly Dynamic Image Resizer
-Description: Dynamically create image sizes on the fly!
-Version: 2.0.11
-Author: Junaid Bhura
-Author URI: https://junaid.dev
+Description: Dynamically create image sizes on the fly! (Successor to Fly Dynamic Image Resizer)
+Version: 2.0.12
+Author: Junaid Bhura (original)
 Text Domain: fly-images
 Update URI: https://fly.escapehatch.dev/info.json
 */

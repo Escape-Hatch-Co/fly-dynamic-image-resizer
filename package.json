@@ -1,6 +1,6 @@
 {
   "name": "eh-fly-dynamic-image-resizer",
-  "version": "2.0.11",
+  "version": "2.0.12",
   "description": "EscapeHatch Fly Dynamic Image Resizer ",
   "main": "index.js",
   "directories": {
