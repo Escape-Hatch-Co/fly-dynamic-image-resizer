@@ -71,3 +71,38 @@ if ( ! function_exists( 'fly_get_all_image_sizes' ) ) {
 		return $fly_images->get_all_image_sizes();
 	}
 }
+
+
+/**
+ * Handles Updates
+ *
+ * @param bool   $update      Should Update.
+ * @param array  $plugin_data Plugin Data.
+ * @param string $plugin_file Plugin File.
+ *
+ * @return bool|mixed
+ */
+function eh_fly_plugin_update( bool $update, array $plugin_data, $plugin_file ) {
+
+	static $response = false;
+
+	if ( empty( $plugin_data['UpdateURI'] ) || ! empty( $update ) ) {
+		return $update;
+	}
+
+	if ( false === $response ) {
+		$response = wp_remote_get( $plugin_data['UpdateURI'] );
+	}
+
+	if ( empty( $response['body'] ) ) {
+		return $update;
+	}
+
+	$custom_plugins_data = json_decode( $response['body'], true );
+
+	if ( ! empty( $custom_plugins_data[ $plugin_file ] ) ) {
+		return $custom_plugins_data[ $plugin_file ];
+	}
+
+	return $update;
+}
